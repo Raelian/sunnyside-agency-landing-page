@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <img src="images/logo.svg" alt="" class="header__logo">
+    <button class="header__nav-toggle"></button>
+    <nav class="header__nav-list">
+      <a href="#about" class="header__nav-btn">About</a>
+      <a href="#services" class="header__nav-btn">Services</a>
+      <a href="#projects" class="header__nav-btn">Projects</a>
+      <a href="#media" class="header__nav-btn">Contact</a>
+    </nav>
+    <h1 class="header__title">We are creatives</h1>
+  </header>
+  <main class="main" id="about">
+    <section class="main__section">
+      <div class="main__image main__image-1"></div>
+      <div class="main__info main__info-1">
+        <h2 class="main__info-title main__info-title-1">Transform your brand</h2>
+        <p class="main__info-text">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <button class="main__info-btn main__info-btn-1">Learn more</button>
+      </div>
+
+      <div class="main__image main__image-2"></div>
+      <div class="main__info main__info-2">
+        <h2 class="main__info-title main__info-title-2">Stand out to the right audience</h2>
+        <p class="main__info-text">
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <button class="main__info-btn main__info-btn-2">Learn more</button>
+      </div>
+
+      <div class="main__service main__service-1" id="services">
+        <h3 class="main__service-title">Graphic design</h3>
+        <p class="main__service-info">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+
+      <div class="main__service main__service-2" id="projects">
+        <h3 class="main__service-title">Photography</h3>
+        <p class="main__service-info">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </section>
+
+    <section class="main__testimonials">
+      <h4 class="main__clients-title">Client testimonials</h4>
+      
+      <div class="main__client-page main__client-page-emily">
+        <img src="images/image-emily.jpg" alt="" class="main__client-pic">
+        <p class="main__client-text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p class="main__client-name">Emily R.</p>
+        <p class="main__client-position">Marketing Director</p>
+      </div>
+
+      <div class="main__client-page main__client-page-thomas">
+        <img src="images/image-thomas.jpg" alt="" class="main__client-pic">
+        <p class="main__client-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <p class="main__client-name">Thomas S.</p>
+        <p class="main__client-position">Chief Operating Officer</p>
+      </div>
+
+      <div class="main__client-page main__client-page-jennie">
+        <img src="images/image-jennie.jpg" alt="" class="main__client-pic">
+        <p class="main__client-text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p class="main__client-name">Jennie F.</p>
+        <p class="main__client-position">Business Owner</p>
+      </div>
+    </section>
+
+    <div class="main__background-images">
+      <div class="main__bg-img"></div>
+      <div class="main__bg-img"></div>
+      <div class="main__bg-img"></div>
+      <div class="main__bg-img"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <img src="images/logo.svg" alt="" class="footer__logo">
+
+    <nav class="footer__menu-list">
+      <a href="#about" class="footer__nav-btn">About</a>
+      <a href="#services" class="footer__nav-btn">Services</a>
+      <a href="#projects" class="footer__nav-btn">Projects</a>
+    </nav>
+
+    <div class="footer__media" id="media">
+      <a href="https://www.facebook.com/" class="footer__media-btn footer__facebook"></a>
+      <a href="https://www.instagram.com/" class="footer__media-btn footer__instagram"></a>
+      <a href="https://twitter.com/" class="footer__media-btn footer__twitter"></a>
+      <a href="https://pinterest.com/" class="footer__media-btn footer__pinterest"></a>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Raelian">Rael</a>.
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
