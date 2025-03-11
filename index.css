@@ -16,6 +16,7 @@
 }
 
 .header {
+  position: relative;
   background-image: url(images/icon-arrow-down.svg), url(images/mobile/image-header.jpg);
   background-repeat: no-repeat, no-repeat;
   background-position: center 68%, 50% 50%;
@@ -48,6 +49,7 @@
   filter: opacity(50%);
 }
 .header__nav-list {
+  position: relative;
   background-color: hsl(0, 0%, 100%);
   height: 304px;
   width: 330px;
